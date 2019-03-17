@@ -13,12 +13,18 @@ There were also outliers in the data as can be seen with the cases reported in a
 
 Building the Prediction Model:
 The predictor class included the following variables:
- outcome,
- PaymentStatus,
- ViolationCategory,
- Disposition,
- AgencyName,
- Building Type Usage
+a. outcome,
+
+b. PaymentStatus,
+
+c. ViolationCategory,
+
+d. Disposition,
+
+e. AgencyName,
+
+f. Building Type Usage
+
 Using the neural network library in Caret I was able to check and find out the relevance of the above
 predictors.
 The attached snapshot is a capture of the accuracy of the Neural Net model training results. I believe
