@@ -27,3 +27,4 @@ Method and Generalised Linear Model - which required more compute time to machin
 underlying patterns.
 
 ![alt text](https://github.com/rwaithaka/blightedbuildings/blob/master/accuracy-weightdecay.png)
+
