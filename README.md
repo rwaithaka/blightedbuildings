@@ -9,3 +9,21 @@ There were also outliers in the data as can be seen with the cases reported in a
 
 
 ![alt text](https://github.com/rwaithaka/blightedbuildings/blob/master/detroitblight.png)
+
+
+Building the Prediction Model:
+The predictor class included the following variables:
+ outcome,
+ PaymentStatus,
+ ViolationCategory,
+ Disposition,
+ AgencyName,
+ Building Type Usage
+Using the neural network library in Caret I was able to check and find out the relevance of the above
+predictors.
+The attached snapshot is a capture of the accuracy of the Neural Net model training results. I believe
+the method is effective and efficient compared to two other algorithms tried out i.e. Gradient Boost
+Method and Generalised Linear Model - which required more compute time to machine learn the
+underlying patterns.
+
+![alt text](https://github.com/rwaithaka/blightedbuildings/blob/master/accuracy-weightdecay.png)
